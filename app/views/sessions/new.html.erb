@@ -1,0 +1,15 @@
+<%= flash[:notice] %>
+
+
+<%= form_tag '/sessions', method: :post do %>
+
+<%= label_tag "Your Name:" %>
+<%= collection_select :user, :name, User.all, :name, :name, :prompt => 'Please select your username from this dropdown' %><br>
+
+<%= label_tag "Your Password:" %><br>
+<%= password_field_tag :user_password %>
+
+<br><br>
+<%= submit_tag "Sign In"%>
+
+<% end %>

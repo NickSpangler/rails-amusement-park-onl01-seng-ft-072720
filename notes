@@ -1,0 +1,5 @@
+//       <form class="new_ride" id="new_ride" action="/rides" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="jKSHo3+ffvj5rEQWwSH7TDQ+V0QeUD0V7Jr4tR9awYOvVXCdbgEqCpHqDt6UiS5O+G8QuHcMbi5w9hPxaGtAIg==">
+//         <input type="hidden" value="262" name="ride[user_id]" id="ride_user_id"><br>
+//         <input type="hidden" value="1" name="ride[attraction_id]" id="ride_attraction_id"><br>
+//         <input type="submit" name="commit" value="Go on this ride" class="btn btn-light" data-disable-with="Go on this ride">
+// </form>  
